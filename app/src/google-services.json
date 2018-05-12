@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "688800612264",
+    "firebase_url": "https://hospitalmanagementsystem-363af.firebaseio.com",
+    "project_id": "hospitalmanagementsystem-363af",
+    "storage_bucket": "hospitalmanagementsystem-363af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688800612264:android:76164097ed36e9c5",
+        "android_client_info": {
+          "package_name": "com.whysoserious.neeraj.hospitalmanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688800612264-66v1t4rvq9tjqljelugpdo3sk9oq6435.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeyjJPtQfX0V6povQzsRHwCrEUtDfQ3UY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

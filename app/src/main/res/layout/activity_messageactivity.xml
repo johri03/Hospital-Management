@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.whysoserious.neeraj.hospitalmanagementsystem.Patient.Messageactivity">
+
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Type  a Message" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="26dp"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/editText3"
+        android:text="Go" />
+
+    <ListView
+        android:id="@+id/chatts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button5"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="28dp"
+
+        android:background="@color/colorPrimary"
+        android:cacheColorHint="@color/colorPrimary" />
+
+</RelativeLayout>

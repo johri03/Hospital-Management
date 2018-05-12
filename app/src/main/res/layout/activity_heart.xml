@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.whysoserious.neeraj.hospitalmanagementsystem.heart">
+
+
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:inputType="textPersonName"
+        android:hint="Age"/>
+
+    <EditText
+        android:id="@+id/sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:inputType="textPersonName"
+        android:hint="Sex" />
+
+
+    <EditText
+        android:id="@+id/cp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:inputType="textPersonName"
+        android:hint="Chest Pain" />
+
+    <EditText
+        android:id="@+id/bps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:inputType="textPersonName"
+        android:hint="Blood Pressure" />
+
+    <EditText
+        android:id="@+id/colestrol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:inputType="textPersonName"
+        android:hint="Colestrol" />
+
+    <EditText
+        android:id="@+id/restecg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:inputType="textPersonName"
+        android:hint="ECG" />
+
+    <EditText
+        android:id="@+id/hr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:inputType="textPersonName"
+        android:hint="Heart Rate" />
+<EditText
+android:id="@+id/ex"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="0dp"
+    android:inputType="textPersonName"
+    android:hint="Exercise" />
+
+
+<EditText
+android:id="@+id/oldPeak"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="0dp"
+    android:inputType="textPersonName"
+    android:hint="Old Peak" />
+
+<EditText
+android:id="@+id/Slope"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="0dp"
+    android:inputType="textPersonName"
+    android:hint="Slope"/>
+
+
+<EditText
+android:id="@+id/ca"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="0dp"
+    android:inputType="textPersonName"
+    android:hint="C.A."/>
+
+
+<EditText
+android:id="@+id/Thal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="0dp"
+    android:inputType="textPersonName"
+    android:hint="Thal" />
+
+
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="get chances of disease"
+    android:id="@+id/but1"/>
+</LinearLayout>
